@@ -4,28 +4,43 @@
 
 # SpaceX
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
+Netflix-Clone
+------------------------------
+It is a fully responsive cloned website of Netflix using Reactjs.
 
-## Development server
+Features
+------------------------------
+* User can see movie list by category `Netflix Originals`  `Top Rated` `Trending Now` `Romance Movie` `Action Movie` `Horror Movie` `Documentary Movie`.
+* User can select any movie by clicking on `Movie poster`.
+* User can watch any movie trailer by clicking on it like Neflix.
+* It is uploaded on Firebase.(Url - https://netflix-clone-b9c24.web.app).
+* Fetching real time data from https://www.themoviedb.org
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Requirements
+------------------------------
 
-## Code scaffolding
+* ``Reactjs``
+* ``Es6``
+* ``NPM``
+* ``axios``
+* ``Node``
+* ``CSS3``
+* ``Java Script``
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run Project
+------------------------------
+* ``git clone https://github.com/Manpal-Singh/Netflix-Clone.git ``
+* ``cd inside netflix or project folder``
+* ``run npm start``
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Preview
+------------------------------
 
-## Running unit tests
+**Home View showing list Movies**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Home Page](https://imgur.com/a71Ty0k.jpg)
 
-## Running end-to-end tests
+**Playing Movie Trailer**
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![Search User Activity](https://imgur.com/LiGokTP.jpg)
