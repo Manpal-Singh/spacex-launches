@@ -1,46 +1,65 @@
-# ng g p UniqueYear --module app
 # npm run build:ssr && npm run serve:ssr
 
-
-# SpaceX
-
-Netflix-Clone
+SpaceX
 ------------------------------
-It is a fully responsive cloned website of Netflix using Reactjs.
+It is a fully responsive Angular application which shows all spacex launches. This assignment is given by Publicis Sapient.
 
 Features
 ------------------------------
-* User can see movie list by category `Netflix Originals`  `Top Rated` `Trending Now` `Romance Movie` `Action Movie` `Horror Movie` `Documentary Movie`.
-* User can select any movie by clicking on `Movie poster`.
-* User can watch any movie trailer by clicking on it like Neflix.
-* It is uploaded on Firebase.(Url - https://netflix-clone-b9c24.web.app).
-* Fetching real time data from https://www.themoviedb.org
+* User can see list of card of `spacex launch`.
+* User can filter launches by selecting custom filters `Launch Year`, `Successful Launch`, `Successful Landing`.
+* Fully responsive for `Mobile View`, `Tablet View:`, `Desktop View`
+* SEO friendly.
+* Server side rendering(SSR) implementation.
+* Updating view without refreshing browser.
+* Chaning url with refreshing browser
+* Deployed on Heroku. (url==>  https://spacex-launches-assignment.herokuapp.com/).
+
 
 Requirements
 ------------------------------
 
-* ``Reactjs``
+* ``Angular8``
 * ``Es6``
 * ``NPM``
-* ``axios``
 * ``Node``
 * ``CSS3``
 * ``Java Script``
 
-Run Project
+Run Project(CSR)
 ------------------------------
-* ``git clone https://github.com/Manpal-Singh/Netflix-Clone.git ``
-* ``cd inside netflix or project folder``
+* run command ``git clone https://github.com/Manpal-Singh/spacex-launches.git``
+* ``cd project folder``
 * ``run npm start``
+
+Run Project(SSR)
+------------------------------
+* run command ``git clone https://github.com/Manpal-Singh/spacex-launches.git``
+* ``cd project folder``
+* ``npm run build:ssr && npm run serve:ssr``
 
 
 Preview
 ------------------------------
 
-**Home View showing list Movies**
+**Home View showing list of Launches**
 
-![Home Page](https://imgur.com/a71Ty0k.jpg)
+![Home Page Desktop](https://imgur.com/6VXabPm.jpg)
 
-**Playing Movie Trailer**
+![Home Page Mobile](https://imgur.com/ECVltA1.jpg)
 
-![Search User Activity](https://imgur.com/LiGokTP.jpg)
+![Home Page Tablet](https://imgur.com/3gAQgu9.jpg)
+
+**Filtering Launches by given custom filters**
+
+![Filter by year](https://imgur.com/qwH1RPb.jpg)
+
+![Filter by successfull launches](https://imgur.com/t9iWGtT.jpg)
+
+![Filter by successfull launches and successfull land](https://imgur.com/BIOgDFN.jpg)
+
+![Filter by successfull launches and successfull land and year](https://imgur.com/KSovVdT.jpg)
+
+
+Live Preview https://spacex-launches-assignment.herokuapp.com/
+
