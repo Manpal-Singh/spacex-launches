@@ -1,5 +1,3 @@
-# npm run build:ssr && npm run serve:ssr
-
 SpaceX
 ------------------------------
 It is a fully responsive Angular application which shows all spacex launches. This assignment is given by Publicis Sapient.
